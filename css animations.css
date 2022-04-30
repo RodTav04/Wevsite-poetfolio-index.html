@@ -1,0 +1,63 @@
+
+        img {
+            width: 10em;
+            height: 10em;
+            background-color: rgb(133, 126, 127);
+            border-radius: 100%;
+            animation: move 10.5s infinite ease-in;
+        }
+
+        @keyframes move {
+            0% {
+                transform: translate(0, 0);
+                width: 15em;
+                height: 2em;
+                box-shadow: 10px 80px 40px 20px yellow
+            }
+
+            25% {
+                transform: translate(15vw, 15vh);
+                background-color: aqua;
+                width: 12em;
+                height: 10em;
+
+            }
+
+            30% {
+                transform: translate(80vw, 10vh);
+                background-color: pink;
+                width: 0em;
+                height: 11em;
+                box-shadow: 120px 80px 40px 20px blue
+               
+            }
+
+            50% {
+                transform: translate(11vw, 60vh);
+                background-color:red;
+                width: 0em;
+                height: 20em;
+                box-shadow: 120px 80px 40px 20px gray;
+            }
+
+            100% {
+                transform: translate(80vh, 0);
+                background-color: black;
+                width: 9em;
+                height: 0sem;
+                box-shadow: 120px 80px 40px 20px silver;
+            }
+
+            100% {
+                transform: translate(80vh, 0);
+                background-color: black;
+                width: 10em;
+                height: 20em;
+                box-shadow: 120px 80px 40px 20px silver;
+            }
+
+        }
+
+          
+        
+        
