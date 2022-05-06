@@ -1,0 +1,144 @@
+nav li {
+
+  list-style: none;
+
+}
+
+ 
+
+nav a{
+
+  text-decoration: none;
+
+  color: green;
+
+  transition: 0.5s ease;  
+
+}
+
+ 
+
+nav a:hover{
+
+  color: white;
+
+  transition: 0.5s ease;
+
+  ;
+
+}
+
+ 
+
+nav ul {
+
+  display: flex;
+
+  justify-content: space-around;
+
+  background-color: black;
+
+  font-size: 2em;
+
+}
+
+ 
+
+*{
+
+ margin: 0;
+
+ padding: 0;
+
+}
+
+ 
+
+img{
+
+    width: 40;
+
+    height: auto;
+
+    float: left;
+
+    padding: 10px 0;
+
+  }
+
+  
+
+  .container{
+
+    width: 90%;
+
+    margin: 0 auto;
+
+  }
+
+  
+
+  header{
+
+    background-image: 
+
+    url(Matrix.gif);
+
+    
+
+  }
+
+  
+
+  header::after{
+
+  content: '';
+
+  display: table;
+
+  clear: both;
+
+  }
+
+  foo
+
+  nav{
+
+    float: right;
+
+  border: 0px;
+
+  }
+
+  
+
+  nav ul{
+
+    margin: 0;
+
+    padding: 0;
+
+    list-style: none;
+
+  }
+
+  
+
+  nav li{
+
+    display: inline-block;
+
+    margin-left: 80px;
+
+    margin-left: 80px;
+
+    padding-top: 20px;
+
+  
+
+    position: relative;
+
+  }
+
+  
+
